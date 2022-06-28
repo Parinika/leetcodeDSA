@@ -91,7 +91,7 @@ int getCount(Node* head){
 }
 
 int getNode(int d, Node* head1, Node* head2){
-    if(head1==NULL)
+    if(head2==NULL)
         return -1;
     Node* current1=head1;
     Node* current2=head2;
