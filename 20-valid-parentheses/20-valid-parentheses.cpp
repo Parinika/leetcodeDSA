@@ -12,7 +12,7 @@ public:
                 char c=st.top();
                 st.pop();
                 if((s[i]==')' && c=='(')||(s[i]==']' && c=='[')||(s[i]=='}' && c=='{'))
-                    int x;
+                    continue;
                 else
                     return false;
             }
